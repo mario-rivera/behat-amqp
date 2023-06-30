@@ -1,0 +1,20 @@
+###> ide ###
+/.vscode
+/.idea
+###< ide ###
+
+###> os ###
+.DS_Store
+###< os ###
+
+###> application ###
+/.env.local
+/.env.local.php
+/.env.*.local
+
+/vendor/
+.phplint-cache
+.phpunit.cache
+/local/
+/docker-compose.override.yaml
+###< application ###
